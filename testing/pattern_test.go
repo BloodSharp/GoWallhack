@@ -6,7 +6,7 @@ import (
 	"unsafe"
 )
 
-func TestFindPatternBuild4554(t *testing.T) {
+func Test_FindPattern_Build_4554_To_Find_QGL_Init_Function(t *testing.T) {
 	fHwDll, err := os.ReadFile("hw_v43.dll")
 	if err != nil {
 		t.Errorf("Couldn't Read hw.dll: %v", err.Error())
@@ -27,7 +27,7 @@ func TestFindPatternBuild4554(t *testing.T) {
 	}
 }
 
-func TestFindPatternBuildSteam(t *testing.T) {
+func Test_FindPattern_Build_Steam_To_Find_QGL_Init_Function(t *testing.T) {
 	fHwDll, err := os.ReadFile("hw_steam.dll")
 	if err != nil {
 		t.Errorf("Couldn't Read hw.dll: %v", err.Error())
