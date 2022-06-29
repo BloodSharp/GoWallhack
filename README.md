@@ -1,6 +1,8 @@
 # GoWallhack
  A wallhack for Counter-Strike 1.6 written in Golang and CGo
 
+![GoWallhack.png](images/GoWallhack.png)
+
 ## Building Requirements
 - Go 1.18
 - GCC for 32 bits (because of CGo)
